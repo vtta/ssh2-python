@@ -1,0 +1,40 @@
+[project]
+name = "ssh2-python"
+version = "1.0.1"
+description = "Bindings for libssh2 C library"
+readme = "README.rst"
+authors = [
+    {name = "Panos Kittenis", email = "22e889d8@opayq.com"},
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU Lesser General Public License v2 (LGPLv2)",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: OS Independent",
+    "Operating System :: POSIX",
+    "Operating System :: POSIX :: BSD",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: C",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: System :: Networking",
+    "Topic :: System :: Shells",
+]
+license = {text = "LGPLv2"}
+requires-python = ">=3.6"
+
+[project.urls]
+Homepage = "https://github.com/ParallelSSH/ssh2-python"
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
